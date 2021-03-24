@@ -17,8 +17,8 @@ span.headline {
 	color: #5a5f70;
   }
   h2 {
-	position: relative;
-	top: 20px;
+	/* position: relative;
+	top: 20px; */
 	text-align: center;
 	border-bottom: 5px double #555a64;
 	line-height: 0.1em;
@@ -125,8 +125,33 @@ section{
 
 .vid{
 	position: relative;
-	top: 50px;
+	/* top: 50px; */
 	left: 25px;
 	padding: 20px;
+}
+
+.quote{
+	font-size: 20px;
+	color: #c0daf7;
+	text-shadow:
+	0 0 2px rgba(202,228,225,0.92),
+	0 0 10px rgba(202,228,225,0.34),
+	0 0 4px rgba(30,132,242,0.52),
+	0 0 7px rgba(30,132,242,0.92),
+	0 0 11px rgba(30,132,242,0.78),
+	0 0 16px rgba(30,132,242,0.92);
+}
+
+#quote1{
+	position: relative;
+	right: 90px;
+	text-align: right;
+}
+
+#quote2{
+	position: relative;
+	right: 60px;
+	bottom: 10px;
+	text-align: center;
 }
 
