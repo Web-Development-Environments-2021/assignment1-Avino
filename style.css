@@ -130,7 +130,14 @@ section{
 	padding: 20px;
 }
 
-.quote{
+/* .quote{
+
+} */
+
+#quote1{
+	position: relative;
+	right: 90px;
+	text-align: right;
 	font-size: 20px;
 	color: #c0daf7;
 	text-shadow:
@@ -142,16 +149,19 @@ section{
 	0 0 16px rgba(30,132,242,0.92);
 }
 
-#quote1{
-	position: relative;
-	right: 90px;
-	text-align: right;
-}
-
 #quote2{
 	position: relative;
 	right: 60px;
 	bottom: 10px;
 	text-align: center;
+	font-size: 20px;
+	color: #c0daf7;
+	text-shadow:
+	0 0 2px rgba(202,228,225,0.92),
+	0 0 10px rgba(202,228,225,0.34),
+	0 0 4px rgba(30,132,242,0.52),
+	0 0 7px rgba(30,132,242,0.92),
+	0 0 11px rgba(30,132,242,0.78),
+	0 0 16px rgba(30,132,242,0.92);
 }
 
