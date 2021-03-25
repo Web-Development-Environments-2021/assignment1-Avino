@@ -15,7 +15,7 @@
         <div class = manuPlaceholder>
             <div id="menu">
                 <ul>
-                    <li ><a class = logo id = logolink href="#top">Ester</a></li>
+                    <li><a class = logo id = logolink href="#top">Ester</a></li>
                     <li class = nav><a class = nav_link href="#about">About Me</a></li>
                     <li class = nav><a class = nav_link href="#photos">My Photos</a></li>
                     <li class = nav><a class = nav_link href="#playlist">My Playlist</a></li>
@@ -46,7 +46,7 @@
             <br/>
             <br/>
             <div align="center" >
-                <h4><span>My grandchildren</span></h4>
+                <h4 class = pichead><span>&#128151 My grandsons &#128151</span></h4>
                 <img class="pic" src=grand_childs1.jpeg />
                 <img class="pic" src=grand_childs2.jpeg />
                 <img class="pic" src=grand_childs3.jpeg />
@@ -57,25 +57,26 @@
 
         <section id="playlist" class="section">
             <h2><span  class = headline>my playlist</span></h2>
-            <h4 class = quote id = quote1>"כשהייתי עושה את עבודות הבית הייתי שרה"</h4>
+            <p class = quote id = quote1>"כשהייתי עושה את עבודות הבית הייתי שרה"</p>
+            <br/>
+            <p class = quote id = quote2>"הרדיו היה דלוק כל הזמן"</p>
             <iframe class = vid width="560" height="315" src="https://www.youtube.com/embed/FwSytHVxOyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <iframe class = vid width="560" height="315" src="https://www.youtube.com/embed/u0OzRh3jR_8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p class = quote id = quote2>"הרדיו היה דלוק כל הזמן"</p>
         </section>
 
         <section id="like" class="section">
-            <h2><span class = headline>Give a Like</span></h2>
-            <h4 style="color: black;font-size:160%" align="center"> Enjoyed my website? Click the like button </h4>
+            <h2><span class = headline>Like</span></h2>
+            <h4 class = like align="center"> Enjoyed my website? Like me on facebook </h4>
             <div align=center>
                 <div class="fb-like" data-href="https://web-development-environments-2021.github.io/assignment1-Avino/" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>
             </div>
-            <p style="color: black ;font-size:160%" align="center"> Thank you!</p>
-            <p style="color: black ; font-size:160%" align="center"> 
+            <p class = like align="center"> Thank you!</p>
+            <p class = like align="center"> 
                 &#128512; &#128516; &#128525; &#128151; &#128151; &#128525; &#128516; &#128512;</p>
         </section>
 
         <section id="qrcoder" class="section">
-        <h2><span class = headline>qrCode</span></h2>
+        <h2><span class = headline>QR code</span></h2>
         <br/>
         <div align = center>
             <img src=qrCode.jpg width=300 height=300 />
@@ -108,16 +109,16 @@
         <section id="contact" class="section">
             <h2><span class = headline>Contact Me</span></h2>
             <br/>
-            <div align="center">
+            <div id = contactContainer align="center">
                 <div align="center" style= "width: 600px">
                     <form name="mailform" action="mailto:avino@post.bgu.ac.il" method="get" enctype="text/plain" >
-                        <p style="color: black">Name:</p>
-                        <input type="from" placeholder="enter your name.." name="from" required name="from" style="width:600px ;height:40px; border-color:plum">
-                        <p style="color: black">E-mail:</p>
-                        <input type="email" id="email" placeholder="enter your mail.." name="email" required name="email" style="width:600px ;height:40px; border-color:plum">
-                        <p style="color: black;"> Comment: </p>
-                        <textarea name="body" id="commentarea" type="body" placeholder="comment" required name="Comment" style="height:150px ; border-color:plum"></textarea><br>
-                        <input type="submit" value="Send">
+                        <p class = contactheadline>Your name:</p>
+                        <input class = contact type="from" placeholder="enter your name..." name="from" required name="from" style="height:40px; ">
+                        <p class = contactheadline>Your e-mail:</p>
+                        <input class = contact type="email" id="email" placeholder="enter your email address..." name="email" required name="email" style="height:40px;">
+                        <p class = contactheadline> Message: </p>
+                        <textarea class = contact name="body" id="commentarea" type="body" placeholder="message..." required name="Comment" style="height:150px ;"></textarea><br>
+                        <input id = send type="submit" value="Send">
                     </form>
                 </div>
             </div>
