@@ -1,5 +1,14 @@
+@font-face {
+    font-family: 'varela_roundregular';
+    src: url('./varelaround-regular-webfont.woff2') format('woff2'),
+         url('./varelaround-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Anton', Arial, sans-serif;
 }
 body {
 	margin: 0;
@@ -13,21 +22,22 @@ section{
 }
 
 span.headline {
-	padding: 0px;
-	text-align: center;
+	position: relative;
+	left:10px;
+	padding-inline: 5px;
 	background: #dadbe2;
 	background-color: white;
+	text-align: left;
+	color: #3f4457;
 	border-radius: 0%;
-	text-align: center;
-	color: #5a5f70;
   }
   h2 {
 	/* position: relative;
 	top: 20px; */
-	text-align: center;
-	border-bottom: 5px double #555a64;
+	text-align: left;
+	border-bottom:4px groove white;
 	line-height: 0.1em;
-	text-shadow: 2px 1px 6px #66686e;
+	font-family:chilanka, segoe script, purisa;
 	/* margin: 10px 0 20px; */
 }
 
@@ -41,9 +51,10 @@ span.headline {
 	height: 350px;
 }
 #biglogo{
+	display:inline-block;
 	margin: 0;
 	position: absolute;
-	top: 40px;
+	top: 50px;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-size: 80px;
@@ -78,51 +89,57 @@ ul{
 a.nav_link{
 	display: inline-block;
 	line-height: 35px;
-	min-width:100px;
+	min-width:110px;
 	padding: 2px 2px #DADADA;
-	color: #D3D3D3;
+	color: #ffffff;
 	/* background: rgb(55, 56, 63, 0.4); */
 	text-align: center;
 	text-decoration: none;
+	font-family:chilanka, segoe script, purisa;
+	font-size: 14px;
 }
 
 a.nav_link:hover{
 	padding-top: 0px;
-	background: #29AB87;
-	color: #D0D0D0;
+	background: #2091dd;
+	color: #000000;
 	position: relative;
 	box-shadow: 2px 2px 10px #66686e;
-    top: -5px;
+    top: -4px;
 	/* border-radius: 6%; */
 }
 
 .logo{
 	transform: scaleY(1.2);
 	text-transform: uppercase;
-	font-family: verdana;
-	font-weight: 700;
+	/* font-family: 'Anton', Arial, sans-serif; */
+	font: 900 10vw chilanka, segoe script, purisa, comic sans ms, cursive;
+	font-weight: 500;
 	color: #f8eaea;
-	text-shadow: 1px 1px 1px #919191,
-		1px 2px 1px #919191,
-		1px 3px 1px #919191,
-		1px 3px 1px #919191,
-		1px 4px 1px #919191,
-		1px 4px 1px #919191,
-		1px 5px 1px #919191,
-		1px 5px 1px #919191,
-		1px 5px 1px #919191,
-		1px 5px 1px #919191,
-	1px 18px 6px rgba(16,16,16,0.4),
+	text-shadow: 1px 1px 1px #f8d2f1,
+		1px 1px 1px #fac4ec,
+		1px 1px 1px #ecbbbb,
+		1px 1px 1px #ffd1d1,
+		1px 1px 1px #c2b8b8,
+		1px 1px 1px #a09999,
+		1px 1px 1px #777272,
+		1px 1px 1px #6e6a6a,
+		1px 1px 1px #919191,
+		1px 1px 1px #919191,
+	1px 18px 6px rgba(58, 56, 56, 0.4),
 	1px 22px 10px rgba(16,16,16,0.2),
-	1px 12px 20px rgba(16,16,16,0.2),
-	1px 15px 40px rgba(16,16,16,0.4);
+	1px 8px 10px rgba(16,16,16,0.2),
+	1px 9px 20px rgba(16,16,16,0.4);
+	
 }
 
 #logolink{
 	position: relative;
-	top: 2px;
+	top: 4px;
 	padding-right: 30px;
 	float: right;
+	font-size: 15px;
+	text-decoration: none;
 }
 
 .sticky {
@@ -157,6 +174,7 @@ a.nav_link:hover{
 	padding: 10px;
 	float: right;
 	text-align: right;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
