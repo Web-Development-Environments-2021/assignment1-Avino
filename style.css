@@ -13,7 +13,7 @@ html{
 body {
 	margin: 0;
 	padding: 0;
-	background: #ccc;
+	background: rgb(255, 255, 255);
 }
 
 section{
@@ -35,7 +35,7 @@ span.headline {
 	/* position: relative;
 	top: 20px; */
 	text-align: left;
-	border-bottom:4px groove white;
+	border-bottom:6px groove rgb(199, 199, 199);
 	line-height: 0.1em;
 	font-family:segoe script, purisa;
 	/* margin: 10px 0 20px; */
