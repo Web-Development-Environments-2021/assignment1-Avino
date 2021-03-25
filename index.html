@@ -8,8 +8,10 @@
         <a name="top"></a>
         <div id="fb-root"></div>
         <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="tdmulshT"></script>
+        <div>
+            <img id = cover src=grandma21.jpeg>   
+        </div>
         <div id="menu">
-            
             <ul>
                 <li class = logo><a id = logo href="#top">Ester</a></li>
                 <li class = nav><a class = nav_link href="#about">About Me</a></li>
@@ -21,12 +23,16 @@
                 <li class = nav><a class = nav_link href="#contact">Contact Me</a></li>
             </ul>
         </div>
-        <div align="center">
-            <img class = pic id="pic1" src=ester.jpeg style="position: relative;top: 40;">
-        </div>
         <section id="about" class="section">
-        <br/>
-        <br/>
+            <h2><span  class = headline>About Me - על עצמי </span></h2>
+            <div class = textPic>
+                <img class = pic id="pic1" src=ester.jpeg >
+                <p id = about_txt> פה יהיו כתובים הדברים שסבתא שלי תגיד על עצמה <br/>
+                    שיהיו מצד ימין של התמונה. אני אעשה גם שהטקסט יהיה <br/>
+                    מעוצב קצת ולא סתם כתב רגיל כדי שזה יצא יפה
+                </p>
+            </div>
+            <br/>
         <br/>
         </section>
 
@@ -48,7 +54,7 @@
 
         <section id="playlist" class="section">
             <h2><span  class = headline>my playlist - השירים שלי</span></h2>
-            <p class = quote id = quote1>"כשהייתי עושה את עבודות הבית הייתי שרה"</p>
+            <h4 class = quote id = quote1>"כשהייתי עושה את עבודות הבית הייתי שרה"</h4>
             <iframe class = vid width="560" height="315" src="https://www.youtube.com/embed/FwSytHVxOyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <iframe class = vid width="560" height="315" src="https://www.youtube.com/embed/u0OzRh3jR_8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p class = quote id = quote2>"הרדיו היה דלוק כל הזמן"</p>
@@ -101,7 +107,7 @@
             <br/>
             <div align="center">
                 <div align="center" style= "width: 600px">
-                    <form name="mailform" action="mailto:noashab@post.bgu.ac.il" method="get" enctype="text/plain" >
+                    <form name="mailform" action="mailto:avino@post.bgu.ac.il" method="get" enctype="text/plain" >
                         <p style="color: black">Name:</p>
                         <input type="from" placeholder="enter your name.." name="from" required name="from" style="width:600px ;height:40px; border-color:plum">
                         <p style="color: black">E-mail:</p>
@@ -114,19 +120,19 @@
             </div>
         </section>
 
-
-        <script type="text/javascript">
-        $(function(){
-        $("#nav a").click(function(e){
-            e.preventDefault();
-            $('html,body').scrollTo(this.hash,this.hash); 
-        });
-        });
+        <script src="script.js"></script>
+        <!-- <script type="text/javascript">
+            $(function(){
+                $("#nav a").click(function(e){
+                    e.preventDefault();
+                    $('html,body').scrollTo(this.hash,this.hash); 
+                });
+            });
         </script>
         <script type="text/javascript">
         $(document).scroll(function() {
             $('#menu').toggle($(this).scrollTop()>1000)
         });​
-        </script>
+        </script> -->
     </body>
 </html>
