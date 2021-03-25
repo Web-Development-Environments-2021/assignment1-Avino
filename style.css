@@ -41,8 +41,9 @@ span.headline {
 	height: 350px;
 }
 #biglogo{
+	margin: 0;
 	position: absolute;
-	top: -40px;
+	top: 40px;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-size: 80px;
