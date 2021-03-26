@@ -213,7 +213,6 @@ a.nav_link:hover{
 .column a {
 	clear:both;
 	float:left;
-	padding-top: 0;
 }
 
 .pic {
@@ -255,7 +254,13 @@ a.nav_link:hover{
 
 #quote2{
 	position: relative;
-	right: 60px;
+	left: 100px;
+	bottom: 10px;
+	text-align: center;
+}
+#quote3{
+	position: relative;
+	right: 150px;
 	bottom: 10px;
 	text-align: center;
 }
