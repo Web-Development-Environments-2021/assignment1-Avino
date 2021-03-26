@@ -38,7 +38,6 @@ span.headline{
 	position: relative;
 	left:10px;
 	padding-inline: 5px;
-	/* background: #dadbe2; */
 	background-color: white;
 	text-align: left;
 	color: #3f4457;
@@ -49,7 +48,6 @@ span.headline{
 	position: relative;
 	right:10px;
 	padding-inline: 5px;
-	/* background: #dadbe2; */
 	background-color: white;
 	text-align: right;
 	color: #3f4457;
@@ -57,13 +55,9 @@ span.headline{
 	font-family:koby;
   }
   h2 {
-	/* position: relative;
-	top: 20px; */
 	text-align: left;
 	border-bottom:4px groove white;
 	line-height: 0.1em;
-	
-	/* margin: 10px 0 20px; */
 }
 
 #coverContainer{
@@ -93,10 +87,6 @@ span.headline{
 		1px 1px 1px #6e6a6a,
 		1px 1px 1px #919191,
 		1px 1px 1px #919191,
-	/* 1px 18px 6px rgba(58, 56, 56, 0.4),
-	1px 22px 10px rgba(16,16,16,0.2),
-	1px 8px 10px rgba(16,16,16,0.2),
-	1px 9px 20px rgba(16,16,16,0.4); */
 }
 #biglogo{
 	display:inline-block;
@@ -120,9 +110,7 @@ span.headline{
 
 ul{
 	display: inline-block;
-	/* position: fixed; */
 	width: 100%;
-	/* top:5px; */
 	list-style: none;
 	background-color: rgb(55, 56, 63, 0.6);
 	text-align: center;
@@ -134,7 +122,6 @@ ul{
 	display: inline;
 	float: left;
 	overflow: hidden;
-	/* background: rgb(55, 56, 63, 0.2); */
 }
 
 a.nav_link{
@@ -143,7 +130,6 @@ a.nav_link{
 	min-width:110px;
 	padding: 2px 2px #DADADA;
 	color: #ffffff;
-	/* background: rgb(55, 56, 63, 0.4); */
 	text-align: center;
 	text-decoration: none;
 	font-family:segoe script, purisa;
@@ -212,6 +198,14 @@ a.nav_link:hover{
 	font-family:varela;
 }
 
+.pichead{
+	margin-top: 40px;
+	padding-top: 30px;
+	text-align: center;
+	line-height: 0.1em;	
+	font-family:levin, gadi, guttman light;
+}
+
 .column {
 	display:inline-block;
 	padding: 5px;
@@ -219,13 +213,14 @@ a.nav_link:hover{
 .column a {
 	clear:both;
 	float:left;
+	padding-top: 0;
 }
 
-img.pic {
+.pic {
 	border-radius: 10px;
 	border: 1px solid #ddd;
 	padding: 5px;
-	width: 250px;
+	max-width:250px;
 	border-radius: 8px;
 }
 
@@ -233,16 +228,10 @@ img.pic {
 .pic:hover{
 	border-radius: 8px;
 	border: 1px solid rgb(147, 192, 250);
-	width: 250px;
 	border-radius: 8px;
 	box-shadow: 2px 2px 15px ;	
 }
 
-.pichead{
-	text-align: center;
-	line-height: 0.1em;	
-	font-family:segoe print, purisa;	
-}
 
 .vid{
 	position: relative;
@@ -255,13 +244,7 @@ img.pic {
 	font-size: 20px; 
 	color: #89888b; 
 	text-shadow:1px 1px 1px #ffffff;
-	/* text-shadow:
-	0 0 2px #cae4e1eb,
-	0 0 10px #cae4e157,
-	0 0 4px #1e84f285,
-	0 0 7px #1e84f2eb,
-	0 0 11px #1e84f2c7,
-	0 0 16px #1e84f2eb; */
+
 }
 
 #quote1{
