@@ -212,6 +212,14 @@ a.nav_link:hover{
 	font-family:varela;
 }
 
+.column {
+	display:inline-block;
+	padding: 5px;
+}
+.column a {
+	clear:both;
+	float:left;
+}
 
 img.pic {
 	border-radius: 10px;
@@ -220,6 +228,7 @@ img.pic {
 	width: 250px;
 	border-radius: 8px;
 }
+
 
 .pic:hover{
 	border-radius: 8px;
@@ -241,29 +250,11 @@ img.pic {
 	left: 25px;
 	padding: 20px;
 }
-
-.quote {
-	font-family:levin, gadi, guttman light;
-	font-size: 20px;
-	color: #fff;
-	-webkit-animation: glow 1s ease-in-out infinite alternate;
-	-moz-animation: glow 1s ease-in-out infinite alternate;
-	animation: glow 1s ease-in-out infinite alternate;
-  }
-  
-  @-webkit-keyframes glow {
-	from {
-	  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #756c3c, 0 0 40px #756c3c, 0 0 50px #756c3c, 0 0 60px #756c3c, 0 0 70px #756c3c;
-	}
-	to {
-	  text-shadow: 0 0 20px #fff, 0 0 30px #a8a7a3, 0 0 40px #c7c3b1, 0 0 50px #c7c3b1, 0 0 60px #c7c3b1, 0 0 70px #c7c3b1, 0 0 80px #c7c3b1;
-	}
-  }
 .quote{
 	font-family:levin, gadi, guttman light;
-	font-size: 20px; */
+	font-size: 20px; 
 	color: #89888b; 
-	text-shadow:2px 2px 1px #ffffff;
+	text-shadow:1px 1px 1px #ffffff;
 	/* text-shadow:
 	0 0 2px #cae4e1eb,
 	0 0 10px #cae4e157,
