@@ -1,10 +1,18 @@
 @font-face {
-    font-family: 'varela_roundregular';
-    src: url('./varelaround-regular-webfont.woff2') format('woff2'),
-         url('./varelaround-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+	src: url(fonts/VarelaRound-Regular.ttf);
+    font-family: varela;
+}
+@font-face{
+	src:url(fonts/Guttman_Yad-Light.ttf);
+	font-family: guttman;
+}
+@font-face{
+	src:url(fonts/Koby.ttf);
+	font-family: koby;
+}
+@font-face{
+	src:url(fonts/Guttman_Yad-Brush.ttf);
+	font-family: guttmanbrush;
 }
 
 html{
@@ -13,7 +21,7 @@ html{
 body {
 	margin: 0;
 	padding: 0;
-	background: rgb(255, 255, 255);
+	background: #ccc;
 }
 
 section{
@@ -21,23 +29,35 @@ section{
 	top: 50px;
 }
 
-span.headline {
+span.headline{
 	position: relative;
 	left:10px;
 	padding-inline: 5px;
-	background: #dadbe2;
+	/* background: #dadbe2; */
 	background-color: white;
 	text-align: left;
 	color: #3f4457;
 	border-radius: 0%;
+	font-family:chilanka, segoe script, purisa;
+  }
+  span.headline_heb{
+	position: relative;
+	right:10px;
+	padding-inline: 5px;
+	/* background: #dadbe2; */
+	background-color: white;
+	text-align: right;
+	color: #3f4457;
+	border-radius: 0%;
+	font-family:koby;
   }
   h2 {
 	/* position: relative;
 	top: 20px; */
 	text-align: left;
-	border-bottom:6px groove rgb(199, 199, 199);
+	border-bottom:4px groove white;
 	line-height: 0.1em;
-	font-family:segoe script, purisa;
+	
 	/* margin: 10px 0 20px; */
 }
 
@@ -184,7 +204,7 @@ a.nav_link:hover{
 	padding: 10px;
 	float: right;
 	text-align: right;
-	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family:varela;
 }
 
 
@@ -218,6 +238,7 @@ img.pic {
 }
 
 .quote{
+	font-family: koby;
 	font-size: 20px;
 	color: #262529;
 	text-shadow: 1px 1px 1px #2091dd;
