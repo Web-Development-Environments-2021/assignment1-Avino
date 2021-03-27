@@ -19,8 +19,12 @@
 	font-family: levin;
 }
 @font-face{
-	src:url(fonts/Comfortaa-VariableFont_wght.ttf);
-	font-family: comfortaa;
+	src:url(fonts/DancingScript-VariableFont_wght.ttf);
+	font-family: dancing;
+}
+@font-face{
+	src:url(fonts/Caveat-VariableFont_wght.ttf);
+	font-family: caveat;
 }
 
 html{
@@ -29,7 +33,7 @@ html{
 body {
 	margin: 0;
 	padding: 0;
-	background: rgb(218, 217, 217);
+	background: rgb(226, 226, 226);
 }
 
 section{
@@ -45,7 +49,7 @@ span.headline{
 	text-align: left;
 	color: #3f4457;
 	border-radius: 0%;
-	font-family:chilanka, segoe script, purisa;
+	font-family: segoe script,dancing, purisa;
   }
   span.headline_heb{
 	position: relative;
@@ -135,7 +139,7 @@ a.nav_link{
 	color: #ffffff;
 	text-align: center;
 	text-decoration: none;
-	font-family:segoe script, purisa;
+	font-family:segoe script,dancing, purisa;
 	font-size: 14px;
 }
 
@@ -268,14 +272,14 @@ a.nav_link:hover{
 }
 
 .like{
-	font-family:segoe print, purisa;
+	font-family:segoe print,caveat, purisa;
 }
 
 table{
 	font-family:'Segoe UI';
 }
 table h1{
-	font-family: segoe print;
+	font-family: segoe print,caveat,purisa;
 	color: #3f4457;
 }
 table th{
@@ -292,11 +296,11 @@ table td{
 
 .contactheadline{
 	text-align: left;
-	font-family:segoe print, purisa;
+	font-family:segoe print,caveat, purisa;
 	margin: 0;
 }
 .contact{
-	font-family:segoe script, purisa;
+	font-family:segoe script,dancing, purisa;
 	width: 100%;
 	padding: 12px 20px;
 	margin-bottom: 20px;
@@ -307,7 +311,7 @@ table td{
 	text-align: left;
 }
 #send{
-	font-family:segoe print, purisa;
+	font-family:segoe print,caveat, purisa;
 	font-weight:bold;
 	font-size: 16px;
 	width: 30%;
