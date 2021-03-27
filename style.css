@@ -29,7 +29,7 @@ html{
 body {
 	margin: 0;
 	padding: 0;
-	background: #ccc;
+	background: rgb(218, 217, 217);
 }
 
 section{
@@ -272,7 +272,17 @@ a.nav_link:hover{
 }
 
 table{
-	font-family: comfortaa;
+	font-family:'Segoe UI';
+}
+table h1{
+	font-family: segoe print;
+	color: #3f4457;
+}
+table th{
+	color: #3f4457;
+}
+table td{
+	color: #3f4457;
 }
 
 #contactContainer{
