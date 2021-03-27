@@ -3,10 +3,6 @@
     font-family: varela;
 }
 @font-face{
-	src:url(fonts/Guttman_Yad-Light.ttf);
-	font-family: guttman light;
-}
-@font-face{
 	src:url(fonts/BadUnicornDemoRegular-BVWx.ttf);
 	font-family: tomat;
 }
@@ -81,7 +77,7 @@ span.headline{
 	text-transform: uppercase;
 	/* font-family: 'Anton', Arial, sans-serif; */
 	font-stretch:extra-expanded;
-	font: 900 10vw tomat, purisa, comic sans ms, cursive;
+	font: 900 10vw tomat, purisa;
 	font-weight: 800;
 	color: rgb(248, 234, 234, 0.4);
 	text-shadow: 1px 1px 1px #f8d2f1,
@@ -198,7 +194,6 @@ a.nav_link:hover{
 }
 #about_txt{
 	position: relative;
-	/* left: 100px; */
 	padding: 10px;
 	float: right;
 	text-align: right;
@@ -210,7 +205,7 @@ a.nav_link:hover{
 	padding-top: 30px;
 	text-align: center;
 	line-height: 0.1em;	
-	font-family:levin;
+	font-family:levin, gadi;
 	font-size: 18px;
 }
 
@@ -245,7 +240,7 @@ a.nav_link:hover{
 }
 .quote{
 	padding: 0;
-	font-family:levin, gadi, guttman light;
+	font-family:levin, gadi;
 	font-size: 20px; 
 	color: #89888b; 
 	text-shadow:1px 1px 1px #ffffff;
