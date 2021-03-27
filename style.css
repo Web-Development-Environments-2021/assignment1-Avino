@@ -220,7 +220,7 @@ a.nav_link:hover{
 	border-radius: 10px;
 	border: 1px solid #ddd;
 	padding: 5px;
-	max-width:250px;
+	max-width:300px;
 	border-radius: 8px;
 }
 
@@ -280,7 +280,7 @@ a.nav_link:hover{
 }
 .contact{
 	font-family:segoe script, purisa;
-	width: 70%;
+	width: 100%;
 	padding: 12px 20px;
 	margin-bottom: 20px;
 	display: inline-block;
@@ -288,7 +288,9 @@ a.nav_link:hover{
 	border-radius: 4px;
 	box-sizing: border-box;
 }
-
+#commentarea{
+	width: 30%;
+}
 #send{
 	font-family:segoe print, purisa;
 	font-weight:bold;
