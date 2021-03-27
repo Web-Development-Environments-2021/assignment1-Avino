@@ -18,7 +18,10 @@
 	src:url(fonts/GveretLevin-Regular.woff) format('woff');
 	font-family: levin;
 }
-
+@font-face{
+	src:url(fonts/Comfortaa-VariableFont_wght.ttf);
+	font-family: comfortaa;
+}
 
 html{
 	font-family: 'Anton', Arial, sans-serif;
@@ -266,6 +269,10 @@ a.nav_link:hover{
 
 .like{
 	font-family:segoe print, purisa;
+}
+
+table{
+	font-family: comfortaa;
 }
 
 #contactContainer{
