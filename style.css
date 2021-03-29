@@ -1,10 +1,11 @@
+/* custom fonts for the page */
 @font-face {
 	src: url(fonts/VarelaRound-Regular.ttf);
     font-family: varela;
 }
 @font-face{
 	src:url(fonts/BadUnicornDemoRegular-BVWx.ttf);
-	font-family: tomat;
+	font-family: BadUnicorn;
 }
 @font-face{
 	src:url(fonts/gadi-almog-regular-aaa.woff2) format('woff2');
@@ -23,6 +24,7 @@
 	font-family: caveat;
 }
 
+/* general properties for the whole page */
 html{
 	font-family: 'Anton', Arial, sans-serif;
 }
@@ -36,7 +38,7 @@ section{
 	position: static;
 	top: 50px;
 }
-
+/* section's headlines */
 span.headline{
 	position: relative;
 	left:10px;
@@ -62,7 +64,7 @@ span.headline{
 	border-bottom:4px groove white;
 	line-height: 0.1em;
 }
-
+/* cover photo and logo */
 #coverContainer{
 	position: relative;
 	text-align: center;	
@@ -77,7 +79,7 @@ span.headline{
 	text-transform: uppercase;
 	/* font-family: 'Anton', Arial, sans-serif; */
 	font-stretch:extra-expanded;
-	font: 900 10vw tomat, purisa;
+	font: 900 10vw BadUnicorn, purisa;
 	font-weight: 800;
 	color: rgb(248, 234, 234, 0.4);
 	text-shadow: 1px 1px 1px #f8d2f1,
@@ -103,6 +105,7 @@ span.headline{
 	font-stretch:ultra-expanded;
 }
 
+/* navbar properties */
 .manuPlaceholder{
 	height: 70px;
 }
@@ -126,6 +129,9 @@ ul{
 	float: left;
 	overflow: hidden;
 }
+.nav:hover{
+	box-shadow: 2px 2px 10px #66686e;
+}
 
 a.nav_link{
 	display: inline-block;
@@ -140,11 +146,9 @@ a.nav_link{
 }
 
 a.nav_link:hover{
-	padding-top: 0px;
+	padding: 0px;
 	background: #2091dd;
 	color: #000000;
-	position: relative;
-	box-shadow: 2px 2px 10px #66686e;
 }
 	
 
@@ -153,7 +157,6 @@ a.nav_link:hover{
 	top: 3px;
 	right: 30px;
 	height: 29px;
-	display: inline-block;
 	line-height: 35px;
 	min-width:110px;
 	float: right;
@@ -174,6 +177,7 @@ a.nav_link:hover{
 	
   }
 
+  /* 'about me' properties */
 .textPic{
 	display: inline-block;
 	width: 60%;
@@ -185,12 +189,8 @@ a.nav_link:hover{
 #pic1{
 	margin: auto;
 	position: relative;
-	/* left: 80px; */
 	box-shadow: 2px 2px 15px ;
 	float: left;
-}
-#pic1:hover{
-	border: 1px solid rgba(213, 255, 62, 0.801);
 }
 #about_txt{
 	position: relative;
@@ -199,7 +199,7 @@ a.nav_link:hover{
 	text-align: right;
 	font-family:varela;
 }
-
+ /* 'my picture' properties */
 .pichead{
 	margin-top: 40px;
 	padding-top: 30px;
@@ -218,6 +218,14 @@ a.nav_link:hover{
 	float:left;
 }
 
+a img:hover{
+
+	border-radius: 8px;
+	border: 1px solid rgb(250, 196, 236, 0.5);
+	border-radius: 8px;
+	box-shadow: 2px 2px 15px rgb(250, 196, 236);	
+}
+
 .pic {
 	border-radius: 10px;
 	border: 1px solid #ddd;
@@ -227,14 +235,14 @@ a.nav_link:hover{
 }
 
 
-.pic:hover{
+/* .pic:hover{
 	border-radius: 8px;
 	border: 1px solid rgb(147, 192, 250);
 	border-radius: 8px;
 	box-shadow: 2px 2px 15px ;	
-}
+} */
 
-
+/* 'my playlist properties */
 .vid{
 	padding: 10px;
 }
@@ -270,6 +278,7 @@ a.nav_link:hover{
 	font-family:segoe print,caveat, purisa;
 }
 
+/* Q&A properties */
 table{
 	font-family:'Segoe UI';
 }
@@ -284,6 +293,7 @@ table td{
 	color: #3f4457;
 }
 
+/* contact propeties */
 #contactContainer{
 	position: relative;
 	bottom: 20px;
