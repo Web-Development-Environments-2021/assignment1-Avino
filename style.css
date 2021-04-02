@@ -180,23 +180,32 @@ a.nav_link:hover{
   /* 'about me' properties */
 .textPic{
 	display: inline-block;
-	width: 60%;
+	width: 80%;
 	padding: 10px;
 	position: relative;
-	left: 20%;
+	left: 10%;
 }
 
 #pic1{
-	margin: auto;
-	position: relative;
+	margin: 0;
 	box-shadow: 2px 2px 15px ;
 	float: left;
+	margin: auto;
+	padding: 0;
+	
+}
+#a{
+	margin: auto;
+	padding: 0;
+	border: solid;
 }
 #about_txt{
+	font-size: 25px;
 	position: relative;
-	padding: 10px;
+	right: 10px;
+	padding: 0px;
 	float: right;
-	text-align: right;
+	text-align: center;
 	font-family:varela;
 }
  /* 'my picture' properties */
@@ -223,7 +232,7 @@ a img:hover{
 	border-radius: 8px;
 	border: 1px solid rgb(250, 196, 236, 0.5);
 	border-radius: 8px;
-	box-shadow: 2px 2px 15px rgb(250, 196, 236);	
+	box-shadow: 2px 2px 15px rgb(243, 180, 226);
 }
 
 .pic {
@@ -234,13 +243,6 @@ a img:hover{
 	border-radius: 8px;
 }
 
-
-/* .pic:hover{
-	border-radius: 8px;
-	border: 1px solid rgb(147, 192, 250);
-	border-radius: 8px;
-	box-shadow: 2px 2px 15px ;	
-} */
 
 /* 'my playlist properties */
 .vid{
