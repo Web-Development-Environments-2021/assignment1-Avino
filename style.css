@@ -201,12 +201,15 @@ a.nav_link:hover{
 }
 #about_txt{
 	font-size: 25px;
+	line-height: 40px;
 	position: relative;
 	right: 10px;
 	padding: 0px;
+	color: #3f4457; 
+	font-weight: lighter;
 	float: right;
 	text-align: center;
-	font-family:varela;
+	font-family:levin, gadi;
 }
  /* 'my picture' properties */
 .pichead{
