@@ -180,10 +180,10 @@ a.nav_link:hover{
   /* 'about me' properties */
 .textPic{
 	display: inline-block;
-	width: 70%;
+	width: 75%;
 	padding: 10px;
 	position: relative;
-	left: 15%;
+	left: 12.5%;
 }
 
 #pic1{
@@ -201,7 +201,7 @@ a.nav_link:hover{
 }
 #about_txt{
 	font-size: 25px;
-	line-height: 40px;
+	line-height: 45px;
 	position: relative;
 	right: 10px;
 	padding: 0px;
