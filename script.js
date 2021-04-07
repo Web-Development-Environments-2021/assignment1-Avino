@@ -1,5 +1,5 @@
 
-
+// script for the sticky navbar
 window.onscroll = function() {stickyFunction()};
 
 let navbar = document.getElementById("menu");
